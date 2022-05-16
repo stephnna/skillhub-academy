@@ -1,3 +1,9 @@
-const a = 5;
-const b = 7;
- a + b
+function myAdd (a, b){
+
+  let c = 0;
+  c = a + b;
+
+  return c;
+}
+
+myAdd (3, 5);
