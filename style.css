@@ -8,8 +8,17 @@ body {
 .display-flex {
   display: flex;
 }
+
+/* .display-block {
+  display: block;
+} */
+
 .white-color {
   color: white;
+}
+
+.white-background {
+  background-color: white;
 }
 
 .gray-background {
@@ -17,14 +26,17 @@ body {
 }
 
 .red-color {
-  color: #ec5242;
-  background-color: ;
+  color: #ec5242;  
 }
 
 .red-background { 
   background-color: #ec5242;
 }
 .dark-color {
+  background-color: #272a31;
+}
+
+.dark-background {
   background-color: #272a31;
 }
 .header {  
@@ -53,6 +65,10 @@ header .header-ongoing {
 
 .header .header-time {
   padding-left: 18px;
+}
+
+.align-center {
+  text-align: center;
 }
 
 .main-courses {
@@ -91,12 +107,67 @@ header .header-ongoing {
 
 .register-button:hover{
   background-color: #e3220d;
+  transform: scale(1)
 }
 
 .register-button:active {
   background-color: #b12314;
   transform: translateY(4px);
 }
+
+/* Featured Speakers */
+.featured-speakers .flex-container {
+  /* justify-content: space-between; */
+  align-items: center;
+ 
+  /* justify-content: space-around; */
+  /* align-items: center;  */
+  margin-left: 32px;
+
+}
+.chinedu-image {
+  background-image: url(./images/chinedu-ezea-picture.png);
+  background-size: 100% 100%;
+  width:  150px;
+  /* border: 3px solid red; */
+  /* background-size: contain; */
+  margin-right: 16px;
+  height: 150px;
+}
+
+/* Footer session */
+
+.footer, .partners-container {
+  padding-bottom: 30px;
+}
+
+
+
+.footer .flex-conatiner {
+ flex-wrap: wrap;
+ padding-left: 0;
+ justify-content: space-between;
+ margin: 30px 20px 40px 20px;
+}
+footer .flex-conatiner .flex-item {  
+  list-style-type: none;  
+  
+}
+ 
+footer .flex-conatiner .flex-item a:link{
+text-decoration: none;
+}
+
+.footer .copyright-flex-container {
+  justify-content: space-around;
+  align-items: center; 
+  margin-top: 30px;
+}
+
+
+
+
+
 
 
 
