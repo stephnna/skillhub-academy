@@ -17,10 +17,6 @@ body {
   color: white;
 }
 
-.white-background {
-  background-color: white;
-}
-
 .gray-background {
   background-color: #d3d3d3;
 }
@@ -39,56 +35,87 @@ body {
 .dark-background {
   background-color: #272a31;
 }
-.header {  
-  /* padding-top: ; */
-  padding-bottom: 100px;
+.mobile-header { 
+  padding-bottom: 10px;
 }
 
-header .header-color, .header-pad {
+.mobile-header, .pad {
   padding-left: 18px;  
 }
-header .header-welcome {
+
+.mobile-header .welcome {
   font-size: 20px;
   font-weight: 100;
 }
 
-header .header-ongoing {
+.mobile-header .header-ongoing {
   font-weight: bold; 
 }
 
-.header .header-paragraph{
+.mobile-header .paragraph{
   padding-left: 20px;
   margin-left: 16px;
   margin-right: 16px;
   border: 3px solid white;
 }
 
-.header .header-time {
-  padding-left: 18px;
-}
 
 .align-center {
   text-align: center;
 }
 
+.web-icon, .seo-icon, 
+.machine-learning-icon, 
+.blockchain-icon, .crpyto-icon,
+.editing-icon {
+  background-size: 100% 100%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.web-icon{
+  background-image: url(./images/web-development-icon.png);  
+}
+
+.seo-icon {
+  background-image: url(./images/seo-icon.png);
+}
+
+.machine-learning-icon {
+  background-image: url(./images/machine-learning-icon.png);
+}
+
+.blockchain-icon {
+  background-image: url(./images/blockchain-icon.png);
+}
+
+.crpyto-icon {
+  background-image: url(./images/crypto-icon.png);
+}
+
+.editing-icon {
+  background-image: url(./images/editing-icon.png);
+}
+
+/* 
+ main {
+  margin-top: 0;  
+} */
+
 .main-courses {
-  padding: 40px 18px;
-  /* text-align: center; */
+  padding: 40px 18px;  
 }
 
 .main-courses-grid-container {
   display: grid;
-  grid-template-columns: auto;
-   
+  grid-template-columns: auto;   
 }
 
-.main-courses-grid-container > .main-grid-item {
-  /* opacity: 50%;  */
-  border: 2px solid rebeccapurple; 
+.main-courses-grid-container > .main-grid-item {  
   display: flex;
   margin-bottom: 12px;
-  background-color: #44474f;
-  /* justify-content: ; */
+  background-color: #44474f; 
   align-items: center; 
   padding-left: 20px;  
   column-gap: 12px;
@@ -106,8 +133,7 @@ header .header-ongoing {
 }
 
 .register-button:hover{
-  background-color: #e3220d;
-  transform: scale(1)
+  background-color: #e3220d;  
 }
 
 .register-button:active {
@@ -117,36 +143,34 @@ header .header-ongoing {
 
 /* Featured Speakers */
 .featured-speakers .flex-container {
-  /* justify-content: space-between; */
-  align-items: center;
- 
-  /* justify-content: space-around; */
-  /* align-items: center;  */
+  align-items: center;  
   margin-left: 32px;
-
 }
+
 .chinedu-image {
   background-image: url(./images/chinedu-ezea-picture.png);
   background-size: 100% 100%;
-  width:  150px;
-  /* border: 3px solid red; */
-  /* background-size: contain; */
+  border-radius: 50%;
+  width:  150px;  
   margin-right: 16px;
   height: 150px;
 }
 
 /* Footer session */
 
+/* .footer {
+ 
+} */
+
 .footer, .partners-container {
-  padding-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 30px; 
 }
-
-
 
 .footer .flex-conatiner {
  flex-wrap: wrap;
  padding-left: 0;
- justify-content: space-between;
+ justify-content: space-evenly;
  margin: 30px 20px 40px 20px;
 }
 footer .flex-conatiner .flex-item {  
