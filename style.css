@@ -17,6 +17,10 @@ body {
   color: white;
 }
 
+.white {
+  background-color: white;
+}
+
 .gray-background {
   background-color: #d3d3d3;
 }
@@ -43,7 +47,7 @@ body {
   padding-left: 18px;  
 }
 
-.mobile-header .welcome {
+.mobile-header .welcome, .about-mobile .greeting {
   font-size: 20px;
   font-weight: 100;
 }
@@ -173,14 +177,13 @@ body {
  justify-content: space-evenly;
  margin: 30px 20px 40px 20px;
 }
-footer .flex-conatiner .flex-item {  
+/* footer .flex-conatiner .flex-item {  
   list-style-type: none;  
-  
 }
- 
-footer .flex-conatiner .flex-item a:link{
+  */
+/* footer .flex-conatiner .flex-item a:link{
 text-decoration: none;
-}
+} */
 
 .footer .copyright-flex-container {
   justify-content: space-around;
@@ -188,6 +191,36 @@ text-decoration: none;
   margin-top: 30px;
 }
 
+/* About Styling */
+/* .about-mobile .welcome-abt  {
+
+  padding-left: 8px;
+  padding-right: 8px;
+
+} */
+
+.about-mobile {
+  padding-bottom: 24px;
+}
+.about-mobile .paragragh-abt {
+  margin: 0 24px;
+  padding: 24px 24px; 
+}
+
+.logo-abt {
+  border: 2px solid rgb(214, 208, 208);
+  line-height: 16px; 
+  margin: 52px 24px; 
+  padding: 52px;
+}
+
+.hr-width-abt{
+  width: 157px;
+}
+
+.date-font-abt{
+  font-size: 8px; 
+}
 
 
 
