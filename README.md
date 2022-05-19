@@ -11,7 +11,7 @@ The aim of this project is to design a protoyype of online platform for learning
 - Javascript 
 
 ## Live Demo 
-[Live Demo Link]()
+[Live Demo Link](https://stephnna.github.io/coding-academy/)
 
 ## Getting Started
 
