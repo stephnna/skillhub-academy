@@ -243,10 +243,7 @@ text-decoration: none;
   font-size: 8px;
 }
 
-/* .hk {
-  width: 100%;
-} */
-.videos-abt > * iframe{
+.videos-abt > * iframe {
   width: 100%;
   height: 300px;
 }
