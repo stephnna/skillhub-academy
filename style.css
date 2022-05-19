@@ -4,6 +4,20 @@ body {
   padding: 0;
 }
 
+@media only screen and (max-width: 768px) {
+ .desktop-menu, .desktop-abt {
+    display: none; 
+  }   
+}
+
+a:link {
+  text-decoration: none;     
+}
+
+ul{
+list-style-type: none;
+}
+
 .display-flex {
   display: flex;
 }
@@ -14,10 +28,6 @@ body {
 
 .white-color {
   color: white;
-}
-
-.white {
-  background-color: white;
 }
 
 .gray-background {
@@ -253,8 +263,31 @@ text-decoration: none;
   margin-right: 48px;
 }
 
-@media only screen and (max-width: 768px) {
-  .desktop-menu {
-    display: none;
+@media only screen and (min-width: 768px) {
+  .desktop-menu .icon-container {
+    padding-top: 0;
+    margin-top: 0;
   }
+
+  .desktop-menu .icon-container a:hover {
+    color: #ec5242;    
+  }
+  .desktop-menu .icon-container{
+    justify-content: flex-end;
+    padding: 5px 155px 5px 0;
+    font-size: 12px;
+    align-items: center;   
+  }
+
+  .desktop-menu .icon-container .icon-item {
+    margin-right: 16px;
+  }
+  
+
+
+
+
+
+
+
 }
