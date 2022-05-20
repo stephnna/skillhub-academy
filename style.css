@@ -5,7 +5,9 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
- .desktop-menu, .desktop-abt {
+ .desktop-menu, .desktop-abt, 
+ .destop-bg-pad .regiter-link
+  {
     display: none; 
   }   
 }
@@ -96,7 +98,6 @@ list-style-type: none;
 .seo-icon,
 .machine-learning-icon,
 .blockchain-icon,
-.crpyto-icon,
 .editing-icon {
   background-size: 100% 100%;
   border-radius: 50%;
@@ -120,29 +121,48 @@ list-style-type: none;
   background-image: url(./images/blockchain-icon.png);
 }
 
-.crpyto-icon {
-  background-image: url(./images/crypto-icon.png);
-}
-
 .editing-icon {
   background-image: url(./images/editing-icon.png);
+}
+
+.background-img {
+  background-image: url(./images/course_bg.png);
+}
+
+.destop-bg-pad {
+
+  padding-top:  72px;
+  padding-bottom: 72px;
+
 }
 
 .main-courses-grid-container {
   display: grid;
   grid-template-columns: auto;
-  padding: 40px 18px;
-  background-image: url(./images/course_bg.png);
+padding-right: 0; 
+border:  1px solid red;
+  margin-bottom:  64px;
+ margin-top: 48px;
 }
 
 .main-courses-grid-container > .main-grid-item {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin-bottom: 12px;
   backdrop-filter: blur(1px) contrast(0.8);
   align-items: center;
-  padding-left: 20px;
-  column-gap: 12px;
+  /* padding: auto; */
+  border:  1px solid rebeccapurple;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 16px;
+  margin-left: 16px;   
+}
+
+.main-content-margin {
+
+  margin-right: 12px;
+
 }
 
 .register-button {
@@ -265,7 +285,7 @@ text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
-  .hamburger {
+  .hamburger, .mobile-btn {
     display: none;
   }  
   
@@ -317,7 +337,36 @@ text-decoration: none;
     padding-top:  24px;
     padding-bottom: 24px;
   }
+  .main-courses-grid-container {    
+    grid-template-columns: auto auto auto auto auto;
+    padding-left:  150px;
+    padding-right:  150px;
+    text-align: center;  
 
+  }
+  
+  .main-courses-grid-container > .main-grid-item {
+    flex-direction:  column;     
+    /* margin-right:  2px;  */
+    padding-top:  24px;  
+  }
+
+  .destop-bg-pad {
+
+   /* padding-top:  40px;
+   padding-bottom: 80px; */
+
+  }
+  .destop-bg-pad .regiter-link {
+    color: white;
+  }   
+
+   
+  /* margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
 
 
 
