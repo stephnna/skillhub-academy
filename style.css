@@ -43,7 +43,7 @@ list-style-type: none;
 }
 
 .dark-color {
-  background-color: #272a31;
+  color: #272a31;
 }
 
 .dark-background {
@@ -137,6 +137,7 @@ list-style-type: none;
 
 .main-courses-grid-container > .main-grid-item {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 12px;
   backdrop-filter: blur(1px) contrast(0.8);
   align-items: center;
@@ -264,6 +265,10 @@ text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }  
+  
   .desktop-menu .icon-container {
     padding-top: 0;
     margin-top: 0;
@@ -279,10 +284,45 @@ text-decoration: none;
     align-items: center;   
   }
 
-  .desktop-menu .icon-container .icon-item {
-    margin-right: 16px;
+  .desktop-menu .icon-item {
+    margin-right: 64px;
   }
-  
+  .icon-container-2  {
+    padding-top: 0;   
+    padding-bottom: 12px;
+  }
+  .desktop-menu  .icon-container-2 {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 152px;
+  }
+
+  .desktop-menu .icon-container-2 .name-border {
+   border: 4px solid  #ec5242;
+   padding: 8px; 
+  }  
+  .mobile-background {
+    background-image: url(./images/desktop-background.png);  
+  padding: 100px 0 100px 150px;  
+  }
+ 
+  .desktop-design .pad {
+    margin-bottom: 48px;    
+  }
+
+  .desktop-design .paragraph{
+    color: rgb(14, 14, 244);
+    margin-bottom: 64px;
+    margin-right:  300px;
+    padding-top:  24px;
+    padding-bottom: 24px;
+  }
+
+
+
+
+
+
 
 
 
