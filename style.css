@@ -130,10 +130,8 @@ list-style-type: none;
 }
 
 .destop-bg-pad {
-
   padding-top:  72px;
   padding-bottom: 72px;
-
 }
 
 .main-courses-grid-container {
@@ -141,24 +139,15 @@ list-style-type: none;
   margin-right: 16px;
   margin-left: 16px; 
   grid-template-columns: auto;
-padding-right: 0; 
-border:  1px solid red;
+  padding-right: 0;
   margin-top: 48px;
   margin-bottom: 64px;
-
 }
 
 .main-courses-grid-container > .main-grid-item {
-  display: flex;
-  /* flex-wrap: wrap; */
-  /* column-gap: 24px; */
-
-  /* margin-bottom: 12px; */
+  display: flex; 
   backdrop-filter: blur(1px) contrast(0.8);
-  align-items: center;
-  /* padding: auto; */
-  border:  1px solid green;
-  /* margin-left: 24px; */
+  align-items: center;  
   padding-left: 24px;   
 }
 
@@ -191,8 +180,7 @@ border:  1px solid red;
 }
 
 .register-button {
-  color: white;
-  /* width: 500px; */
+  color: white; 
   padding: 32px;
   border: none;
   font-size: 30px;
@@ -228,10 +216,6 @@ border:  1px solid red;
 
 /* Footer session */
 
-/* .footer {
-
-} */
-
 .footer,
 .partners-container {
   padding-top: 25px;
@@ -245,15 +229,6 @@ border:  1px solid red;
   margin: 30px 20px 40px 20px;
 }
 
-/* footer .flex-conatiner .flex-item {
-  list-style-type: none;
-}
-  */
-
-/* footer .flex-conatiner .flex-item a:link{
-text-decoration: none;
-} */
-
 .footer .copyright-flex-container {
   justify-content: space-around;
   align-items: center;
@@ -261,13 +236,6 @@ text-decoration: none;
 }
 
 /* About Styling */
-
-/* .about-mobile .welcome-abt  {
-
-  padding-left: 8px;
-  padding-right: 8px;
-
-} */
 
 .about-mobile {
   padding-bottom: 24px;
@@ -367,17 +335,14 @@ text-decoration: none;
     margin-left:  150px;
     margin-right:  150px;
     text-align: center;
- 
-  
-
   }
   
   .main-courses-grid-container > .main-grid-item {
-    flex-direction:  column;     
-    /* margin-right:  2px;  */
+    flex-direction:  column; 
     padding-top:  24px; 
     margin-bottom: 0; 
-    padding-left: 0px;    
+    padding-left: 0px; 
+    margin-right: 3px;   
   }  
 
   .main .destop-bg-pad .main-courses-grid-container > * p {
@@ -385,9 +350,8 @@ text-decoration: none;
     padding-right: 8px;   
   }
 
-  .main .destop-bg-pad .main-courses-grid-container > * h3, .web-padding {
-    padding-left: 0; 
-  
+  .main .destop-bg-pad .main-courses-grid-container > * h3 {
+    padding-left: 0;
   }
 
  
@@ -396,11 +360,6 @@ text-decoration: none;
   }   
 
    
-  /* margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); */
 
 
 
