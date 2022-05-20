@@ -138,38 +138,62 @@ list-style-type: none;
 
 .main-courses-grid-container {
   display: grid;
+  margin-right: 16px;
+  margin-left: 16px; 
   grid-template-columns: auto;
 padding-right: 0; 
 border:  1px solid red;
-  margin-bottom:  64px;
- margin-top: 48px;
+  margin-top: 48px;
+  margin-bottom: 64px;
+
 }
 
 .main-courses-grid-container > .main-grid-item {
   display: flex;
   /* flex-wrap: wrap; */
-  margin-bottom: 12px;
+  /* column-gap: 24px; */
+
+  /* margin-bottom: 12px; */
   backdrop-filter: blur(1px) contrast(0.8);
   align-items: center;
   /* padding: auto; */
-  border:  1px solid rebeccapurple;
-  padding-left: 8px;
-  padding-right: 8px;
-  margin-right: 16px;
-  margin-left: 16px;   
+  border:  1px solid green;
+  /* margin-left: 24px; */
+  padding-left: 24px;   
 }
 
-.main-content-margin {
+.main .destop-bg-pad .main-courses-grid-container > * h3, .web-padding {
+  padding-left: 24px; 
 
-  margin-right: 12px;
+}
+
+.seo-padding {
+  padding-left: 123px;
+}
+
+.machine-learning-padding  {
+
+  padding-left: 55px;
+
+}
+.main-content-padding {
+  border:  1px solid rgb(14, 14, 244);
+}
+
+.blockchain-padding {
+  padding-left:  34px;
+
+}
+
+.editing-padding {
+  padding-left: 77px;
 
 }
 
 .register-button {
   color: white;
-
   /* width: 500px; */
-  padding: 20px 0;
+  padding: 32px;
   border: none;
   font-size: 30px;
   cursor: pointer;
@@ -179,6 +203,7 @@ border:  1px solid red;
 
 .register-button:hover {
   background-color: #e3220d;
+  
 }
 
 .register-button:active {
@@ -339,24 +364,33 @@ text-decoration: none;
   }
   .main-courses-grid-container {    
     grid-template-columns: auto auto auto auto auto;
-    padding-left:  150px;
-    padding-right:  150px;
-    text-align: center;  
+    margin-left:  150px;
+    margin-right:  150px;
+    text-align: center;
+ 
+  
 
   }
   
   .main-courses-grid-container > .main-grid-item {
     flex-direction:  column;     
     /* margin-right:  2px;  */
-    padding-top:  24px;  
+    padding-top:  24px; 
+    margin-bottom: 0; 
+    padding-left: 0px;    
+  }  
+
+  .main .destop-bg-pad .main-courses-grid-container > * p {
+    padding-left: 8px;
+    padding-right: 8px;   
   }
 
-  .destop-bg-pad {
-
-   /* padding-top:  40px;
-   padding-bottom: 80px; */
-
+  .main .destop-bg-pad .main-courses-grid-container > * h3, .web-padding {
+    padding-left: 0; 
+  
   }
+
+ 
   .destop-bg-pad .regiter-link {
     color: white;
   }   
