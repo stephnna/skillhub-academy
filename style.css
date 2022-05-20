@@ -248,7 +248,7 @@ list-style-type: none;
 }
 
 .about-mobile .paragragh-abt {
-  margin: 0 170px;
+  margin: 0 48px;
   padding: 24px 52px;
 }
 
@@ -322,6 +322,10 @@ list-style-type: none;
   padding: 100px 0 100px 150px;  
   }
  
+  .about-mobile .paragragh-abt {
+    margin-right: 170px;
+    margin-left: 250px; 
+  }
   .desktop-design .pad {
     margin-bottom: 48px;    
   }
