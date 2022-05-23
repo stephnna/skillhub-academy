@@ -55,6 +55,59 @@ ul {
   background-color: #272a31;
 }
 
+/* Hamburger and its menu */
+.hamburger {  
+  position: fixed;
+  /* padding-top: 24px;
+  padding-left:  48px; */
+  /* visibility: visible; */
+}
+
+.hamburger div { 
+  width: 30px;
+  height: 3px;
+  cursor: pointer;
+  background-color: #272a31;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.is-active .bar-1 {
+  transform: rotate(-45deg) translate(-8px, 6px);
+  position: fixed; 
+ 
+}
+
+.is-active .bar-2 {
+  opacity: 0;
+}
+
+.is-active .bar-3 {
+  transform: rotate(45deg) translate(-6px, -5px);
+  position: fixed; 
+ 
+}
+
+.hamburger-menu {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  /* display: block; */
+  z-index: 99;
+  background-color: white;
+  padding-top: 106px;
+  transition: 0.4s;
+}
+
+.is-active .hamburger-menu {
+  left: 0;
+  opacity: 78%;
+  /* margin-top: 0; 
+  margin-left: 0; */
+}
+
 .mobile-header img,
 .about-mobile .header-abt-bg img {
   padding-left: 24px;
@@ -284,7 +337,9 @@ ul {
 
 @media only screen and (min-width: 768px) {
   .hamburger,
-  .mobile-btn {
+  .mobile-btn,
+  .footer .partners-container
+  {
     display: none;
   }
 
