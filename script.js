@@ -73,6 +73,7 @@ Array.from(sectionFeaturedElement.children).forEach((child, index) => {
   <div class="chinedu-image" style="background-image: url(${projects[index].image});"></div>
   <div><h4>${projects[index].name}</h4>
   <i class="qualification">${projects[index].qualification}</i>
+  <hr class="qualification-dash">
   <p>${projects[index].description}</p>
 </div>    
 `;

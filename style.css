@@ -208,6 +208,12 @@ ul {
   margin-top: 48px;
 }
 
+.tutor-dash {
+  width:  52px;
+  height: 2px;
+  border: none;
+}
+
 .main-courses-grid-container, .featured-speakers {
   display: grid;
   grid-template-columns: auto;
@@ -290,6 +296,11 @@ ul {
 .qualification {
   color: #ec5242;
   font-size: 11px;
+}
+
+.qualification-dash {
+  width: 16px;
+ margin-left: 0;
 }
 
 /* Footer session */
