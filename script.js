@@ -9,7 +9,8 @@ hamBurger.addEventListener('click', () => {
 
 // creating first card item i.e grid project
 
-const projects = [{ 
+const projects = [{
+  chess: './images/chess-bg.png', 
   image: './images/chinedu-ezea-picture.png',
   name: 'Chinedu Ezea',
   dash: '',
@@ -17,13 +18,7 @@ const projects = [{
   description: 'He is a mathematician and a professional editors with several publications in high impact factor journals', 
 },
 {
-  image: './images/chinedu-ezea-picture.png',
-  name: 'Chinedu Ezea',
-  dash: '',
-  qualification: 'Chinedu is a doctor of philosophy at Nnamdi Azikiwe University',
-  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals', 
-},
-{ 
+  chess: './images/chess-bg.png', 
   image: './images/chinedu-ezea-picture.png',
   name: 'Chinedu Ezea',
   dash: '',
@@ -31,6 +26,15 @@ const projects = [{
   description: 'He is a mathematician and a professional editors with several publications in high impact factor journals', 
 },
 {
+  chess: './images/chess-bg.png',  
+  image: './images/chinedu-ezea-picture.png',
+  name: 'Chinedu Ezea',
+  dash: '',
+  qualification: 'Chinedu is a doctor of philosophy at Nnamdi Azikiwe University',
+  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals', 
+},
+{
+  chess: './images/chess-bg.png', 
   image: './images/chinedu-ezea-picture.png',
   name: 'Chinedu Ezea',
   dash: '',
@@ -38,6 +42,7 @@ const projects = [{
   description: 'He is a mathematician and a professional editors with several publications in high impact factor journals', 
 },
 { 
+  chess: './images/chess-bg.png', 
   image: './images/chinedu-ezea-picture.png',
   name: 'Chinedu Ezea',
   dash: '',
@@ -45,6 +50,7 @@ const projects = [{
   description: 'He is a mathematician and a professional editors with several publications in high impact factor journals', 
 },
 { 
+  chess: './images/chess-bg.png', 
   image: './images/chinedu-ezea-picture.png',
   name: 'Chinedu Ezea',
   dash: '',
@@ -58,7 +64,7 @@ sectionFeaturedElement.className = 'featured-speakers';
 
 for (let i = 0; i < projects.length; i += 1) {
   const gridProject = document.createElement('div');
-  gridProject.className = 'flex-container featured-grid-item display-flex';
+  gridProject.className = 'flex-container featured-grid-item display-flex';  
   sectionFeaturedElement.appendChild(gridProject);
 }
 

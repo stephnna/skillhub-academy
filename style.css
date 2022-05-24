@@ -56,11 +56,10 @@ ul {
 }
 
 /* Hamburger and its menu */
-.hamburger {  
-  position: fixed;
-  /* padding-top: 24px;
-  padding-left:  48px; */
-  /* visibility: visible; */
+.hamburger { 
+  position: fixed; 
+   padding-top: 0;
+  padding-left: 24px; 
 }
 
 .hamburger div { 
@@ -70,42 +69,54 @@ ul {
   background-color: #272a31;
   margin: 6px 0;
   transition: 0.4s;
+ 
 }
 
 .is-active .bar-1 {
   transform: rotate(-45deg) translate(-8px, 6px);
-  position: fixed; 
- 
 }
 
 .is-active .bar-2 {
-  opacity: 0;
+  opacity: 0; 
 }
 
 .is-active .bar-3 {
-  transform: rotate(45deg) translate(-6px, -5px);
-  position: fixed; 
- 
+  transform: rotate(45deg) translate(-6px, -6px);  
 }
 
 .hamburger-menu {
-  position: fixed;
+  position: fixed; 
+  /* flex-direction: column; */
   top: 0;
   left: 100%;
   width: 100%;
   min-height: 100vh;
-  /* display: block; */
+  display: block;
   z-index: 99;
   background-color: white;
-  padding-top: 106px;
+  margin-top: 0;
+  padding-top: 120px;
   transition: 0.4s;
 }
 
 .is-active .hamburger-menu {
+   /* display: flex; */
+  /*  */
+  /* border:  1px solid rebeccapurple; */
   left: 0;
-  opacity: 78%;
+  opacity: 84%;
   /* margin-top: 0; 
   margin-left: 0; */
+}
+
+.hamburger .hamburger-menu .menu-item {
+ font-weight: bold;
+ font-size: 30px;
+  margin-top:  24px;
+} 
+
+.hamburger .hamburger-menu .menu-item .menu-color {
+  color: #272a31;
 }
 
 .mobile-header img,
@@ -124,9 +135,13 @@ ul {
   padding-bottom: 10px;
 }
 
+  
+
 .mobile-header,
 .pad {
+  padding-top: 52px;
   padding-left: 18px;
+  margin-top: 0;
 }
 
 .mobile-header .welcome,
@@ -136,11 +151,12 @@ ul {
 }
 
 .mobile-header .paragraph {
+  
   padding-left: 20px;
   margin-left: 16px;
   margin-right: 16px;
   border: 3px solid white;
-}
+} 
 
 .align-center {
   text-align: center;
@@ -208,7 +224,13 @@ ul {
   align-items: center;
   backdrop-filter: blur(1px) contrast(0.8); 
   padding-left: 24px;
+  transition: transform .2s; 
 }
+
+.main-courses-grid-container > .main-grid-item:hover {
+  transform: scale(0.9);  
+}
+
 
 .featured-speakers .flex-container {
   align-items: center;  
@@ -244,9 +266,7 @@ ul {
   padding: 32px;
   border: none;
   font-size: 30px;
-  cursor: pointer;
-
-  /* display: block; */
+  cursor: pointer;  
 }
 
 .register-button:hover {
@@ -275,6 +295,14 @@ ul {
   padding-bottom: 30px;
 }
 
+/* .footer-index .flex-conatiner {
+  background-size: 100% 100%;
+  border-radius: 50%;
+  width: 150px;
+  margin-right: 16px;
+  height: 150px;
+} */
+
 .footer .flex-conatiner, .footer-index .flex-conatiner {
   flex-wrap: wrap;
   padding-left: 0;
@@ -297,7 +325,7 @@ ul {
 .header-abt-bg {
   background-image: url(./images/about_bg_a.png);
   background-size: 100% 100%;
-  background-size: contain;
+  background-size: contain;  
 }
 
 .about-mobile .paragragh-abt {
@@ -306,8 +334,9 @@ ul {
 }
 
 .header-ongoing {
-  font-size: 72px;
+  font-size: 69px;
   line-height: 61px;
+  margin-top: 0;
 }
 
 .logo-abt {
@@ -393,13 +422,27 @@ ul {
     margin-bottom: 48px;
   }
 
-  .desktop-design .paragraph {
-    color: rgb(14, 14, 244);
+  .mobile-header  .paragraph {
+    opacity: 90;
+    background-color: #d3d3d3;
+    color: #272a31; 
     margin-bottom: 64px;
-    margin-right: 300px;
+    max-width: 50%;
     padding-top: 24px;
     padding-bottom: 24px;
   }
+
+  .mobile-header .time {
+    opacity: 90;
+    color: #272a31;
+    background-color: #d3d3d3;
+    max-width: 40%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    /* margin-bottom: 0; */
+  }
+ 
+
   .main-courses-grid-container { 
     grid-template-columns: auto auto auto auto auto;  
     text-align: center;
@@ -455,3 +498,6 @@ ul {
     color: white;
   }
 }
+
+/* .grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); } */
