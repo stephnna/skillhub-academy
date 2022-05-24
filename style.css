@@ -230,6 +230,7 @@ ul {
   align-items: center;
   backdrop-filter: blur(1px) contrast(0.8); 
   padding-left: 24px;
+  margin-bottom: 16px;
   transition: transform .2s; 
 }
 
@@ -301,6 +302,16 @@ ul {
 .qualification-dash {
   width: 16px;
  margin-left: 0;
+}
+
+.more-arrow {
+  border: 1px solid  #d3d3d3;
+  text-align: center;
+  border-radius: 6px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-right: 16px;
+  margin-left: 16px;
 }
 
 /* Footer session */
