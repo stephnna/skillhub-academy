@@ -287,6 +287,11 @@ ul {
   height: 150px;
 }
 
+.qualification {
+  color: #ec5242;
+  font-size: 11px;
+}
+
 /* Footer session */
 
 .footer,
@@ -390,6 +395,7 @@ ul {
 
   .desktop-menu .icon-item {
     margin-right: 64px;
+    border: 2px solid rebeccapurple;
   }
 
   .icon-container-2 {
