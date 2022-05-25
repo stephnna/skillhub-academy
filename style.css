@@ -224,6 +224,7 @@ ul {
 
 .featured-speakers > .featured-grid-item { 
   margin-bottom: 24px;
+  margin-right: 16px;
 }
 
 .main-courses-grid-container > .main-grid-item {
@@ -301,7 +302,7 @@ ul {
       /* border: 1px solid red; */
      background-size: 100% 100%;
      border-radius: 50%;
-     width: 224px;
+     width: 195px;
      /* margin-right: 16px; */
      height: 195px;
      /* background-position-x: 6px; */
@@ -311,7 +312,7 @@ ul {
 }
 
 .tutors-info {
-  margin-left: 253px;
+  margin-left: 212px;
     margin-top: -90px;
 
 }
