@@ -383,10 +383,11 @@ ul {
 }
 
 .footer .flex-conatiner,
-.footer-index .flex-conatiner {
+.footer-index .flex-conatiner {  
   flex-wrap: wrap;
-  padding-left: 0;
+  padding-left: 0;  
   justify-content: space-evenly;
+  align-items: center;
   margin: 30px 20px 40px 20px;
 }
 
