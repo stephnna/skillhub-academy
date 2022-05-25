@@ -6,56 +6,55 @@ hamBurger.addEventListener('click', () => {
   mobileMenu.classList.toggle('is-active');
 });
 
-
 // creating first card item i.e grid project
 
 const projects = [{
-  chess: './images/chess-bg.png', 
+  chess: './images/chess-bg.png',
   image: './images/chinedu-ezea-picture.png',
   name: 'Chinedu Ezea',
   dash: '',
   qualification: 'Chinedu is a doctor of philosophy at Nnamdi Azikiwe University',
-  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals', 
+  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals',
 },
 {
-  chess: './images/chess-bg.png', 
+  chess: './images/chess-bg.png',
   image: './images/chinedu-ezea-picture.png',
   name: 'Chinedu Ezea',
   dash: '',
   qualification: 'Chinedu is a doctor of philosophy at Nnamdi Azikiwe University',
-  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals', 
+  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals',
 },
 {
-  chess: './images/chess-bg.png',  
+  chess: './images/chess-bg.png',
   image: './images/chinedu-ezea-picture.png',
   name: 'Chinedu Ezea',
   dash: '',
   qualification: 'Chinedu is a doctor of philosophy at Nnamdi Azikiwe University',
-  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals', 
+  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals',
 },
 {
-  chess: './images/chess-bg.png', 
+  chess: './images/chess-bg.png',
   image: './images/chinedu-ezea-picture.png',
   name: 'Chinedu Ezea',
   dash: '',
   qualification: 'Chinedu is a doctor of philosophy at Nnamdi Azikiwe University',
-  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals', 
+  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals',
 },
-{ 
-  chess: './images/chess-bg.png', 
+{
+  chess: './images/chess-bg.png',
   image: './images/chinedu-ezea-picture.png',
   name: 'Chinedu Ezea',
   dash: '',
   qualification: 'Chinedu is a doctor of philosophy at Nnamdi Azikiwe University',
-  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals', 
+  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals',
 },
-{ 
-  chess: './images/chess-bg.png', 
+{
+  chess: './images/chess-bg.png',
   image: './images/chinedu-ezea-picture.png',
   name: 'Chinedu Ezea',
   dash: '',
   qualification: 'Chinedu is a doctor of philosophy at Nnamdi Azikiwe University',
-  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals', 
+  description: 'He is a mathematician and a professional editors with several publications in high impact factor journals',
 },
 ];
 
@@ -65,11 +64,8 @@ sectionFeaturedElement.className = 'featured-speakers';
 for (let i = 0; i < projects.length; i += 1) {
   const gridProject = document.createElement('div');
   gridProject.className = 'flex-container featured-grid-item';
-  gridProject.style.backgroundImage  
   sectionFeaturedElement.appendChild(gridProject);
 }
-
-
 
 Array.from(sectionFeaturedElement.children).forEach((child, index) => {
   child.innerHTML = `
@@ -82,5 +78,3 @@ Array.from(sectionFeaturedElement.children).forEach((child, index) => {
 </div>   
 `;
 });
-
-{/* <div class="chess" style="background-image: url(${projects[index].chess});"></div> */}
