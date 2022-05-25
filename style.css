@@ -56,20 +56,19 @@ ul {
 }
 
 /* Hamburger and its menu */
-.hamburger { 
-  position: fixed; 
-   padding-top: 0;
-  padding-left: 24px; 
+.hamburger {
+  position: fixed;
+  padding-top: 0;
+  padding-left: 24px;
 }
 
-.hamburger div { 
+.hamburger div {
   width: 30px;
   height: 3px;
   cursor: pointer;
   background-color: #272a31;
   margin: 6px 0;
   transition: 0.4s;
- 
 }
 
 .is-active .bar-1 {
@@ -77,15 +76,16 @@ ul {
 }
 
 .is-active .bar-2 {
-  opacity: 0; 
+  opacity: 0;
 }
 
 .is-active .bar-3 {
-  transform: rotate(45deg) translate(-6px, -6px);  
+  transform: rotate(45deg) translate(-6px, -6px);
 }
 
 .hamburger-menu {
-  position: fixed; 
+  position: fixed;
+
   /* flex-direction: column; */
   top: 0;
   left: 100%;
@@ -100,20 +100,15 @@ ul {
 }
 
 .is-active .hamburger-menu {
-   /* display: flex; */
-  /*  */
-  /* border:  1px solid rebeccapurple; */
   left: 0;
   opacity: 84%;
-  /* margin-top: 0; 
-  margin-left: 0; */
 }
 
 .hamburger .hamburger-menu .menu-item {
- font-weight: bold;
- font-size: 30px;
-  margin-top:  24px;
-} 
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 24px;
+}
 
 .hamburger .hamburger-menu .menu-item .menu-color {
   color: #272a31;
@@ -135,8 +130,6 @@ ul {
   padding-bottom: 10px;
 }
 
-  
-
 .mobile-header,
 .pad {
   padding-top: 52px;
@@ -151,12 +144,11 @@ ul {
 }
 
 .mobile-header .paragraph {
-  
   padding-left: 20px;
   margin-left: 16px;
   margin-right: 16px;
   border: 3px solid white;
-} 
+}
 
 .align-center {
   text-align: center;
@@ -202,50 +194,51 @@ ul {
   padding-bottom: 72px;
 }
 
-.main-courses-grid-container {  
+.main-courses-grid-container {
   padding-right: 0;
   margin-bottom: 64px;
   margin-top: 48px;
 }
 
 .tutor-dash {
-  width:  52px;
+  width: 52px;
   height: 2px;
   border: none;
   margin-bottom: 45px;
 }
+
 .featured-speakers {
   margin-bottom: 52px;
 }
 
-.main-courses-grid-container, .featured-speakers {
+.main-courses-grid-container,
+.featured-speakers {
   display: grid;
   grid-template-columns: auto;
-  margin-right: 16px; 
+  margin-right: 16px;
   margin-left: 16px;
 }
 
-.featured-speakers > .featured-grid-item { 
-  margin-bottom: 24px; 
+.featured-speakers > .featured-grid-item {
+  margin-bottom: 24px;
   padding: 0;
 }
 
 .main-courses-grid-container > .main-grid-item {
   display: flex;
   align-items: center;
-  backdrop-filter: blur(1px) contrast(0.8); 
+  backdrop-filter: blur(1px) contrast(0.8);
   padding-left: 24px;
   margin-bottom: 16px;
-  transition: transform .2s; 
+  transition: transform 0.2s;
 }
 
 .main-courses-grid-container > .main-grid-item:hover {
-  transform: scale(0.9);  
+  transform: scale(0.9);
 }
 
-
 .featured-speakers .flex-container {
-  align-items: center;  
+  align-items: center;
 }
 
 .main .destop-bg-pad .main-courses-grid-container > * h3,
@@ -278,7 +271,7 @@ ul {
   padding: 32px;
   border: none;
   font-size: 30px;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .register-button:hover {
@@ -290,34 +283,37 @@ ul {
   transform: translateY(4px);
 }
 
-
 .chess {
   height: 76px;
   width: 61px;
   background-size: 100% 100%;
   border-radius: 50%;
-  /* background-repeat: no-repeat; */
-  /* margin-right: 183px; */
- 
-}
-.chinedu-image { 
 
-      /* border: 1px solid red; */
-     background-size: 100% 100%;
-     border-radius: 50%;
-     width: 195px;
-     /* margin-right: 16px; */
-     height: 195px;
-     /* background-position-x: 6px; */
-     background-repeat: no-repeat;
-     /* background-position: 17px 20px; */
-      /* z-index: 99; */
+  /* background-repeat: no-repeat; */
+
+  /* margin-right: 183px; */
+}
+
+.chinedu-image {
+  /* border: 1px solid red; */
+  background-size: 100% 100%;
+  border-radius: 50%;
+  width: 195px;
+
+  /* margin-right: 16px; */
+  height: 195px;
+
+  /* background-position-x: 6px; */
+  background-repeat: no-repeat;
+
+  /* background-position: 17px 20px; */
+
+  /* z-index: 99; */
 }
 
 .tutors-info {
   margin-left: 212px;
-    margin-top: -90px;
-
+  margin-top: -90px;
 }
 
 .qualification {
@@ -327,28 +323,32 @@ ul {
 
 .qualification-dash {
   width: 16px;
- margin-left: 0;
+  margin-left: 0;
 }
 
 .down-arrow {
- margin-top: 5px;
- width: 10px;
- height: 10px;
- /* background-color: #ec5242; */
- filter: grayscale(100%); 
- background-color: #b12314;
- color: #b12314;
+  margin-top: 5px;
+  width: 10px;
+  height: 10px;
+
+  /* background-color: #ec5242; */
+  filter: grayscale(100%);
+  background-color: #b12314;
+  color: #b12314;
 }
 
 .more {
   /* border: 1px solid  #d3d3d3; */
+
   /* text-align: center; */
-  padding-right: 150px;
+  padding-right: 170px;
   padding-left: 150px;
   border-radius: 6px;
   padding-top: 16px;
   padding-bottom: 16px;
+
   /* margin-right: 16px; */
+
   /* margin-left: 16px; */
   margin-bottom: 52px;
   font-size: 20px;
@@ -356,13 +356,11 @@ ul {
   background-image: url(./images/down-arrow.svg);
   background-repeat: no-repeat;
   background-position: 202px 16px;
-  
 }
 
 .more:hover {
   background-color: #ec5242;
   color: white;
-
 }
 
 /* Footer session */
@@ -372,6 +370,7 @@ ul {
   padding-top: 25px;
   padding-bottom: 30px;
 }
+
 .partners-container .partner {
   font-weight: bold;
   font-size: 30px;
@@ -383,23 +382,16 @@ ul {
   font-size: 30px;
 }
 
-
-/* .footer-index .flex-conatiner {
-  background-size: 100% 100%;
-  border-radius: 50%;
-  width: 150px;
-  margin-right: 16px;
-  height: 150px;
-} */
-
-.footer .flex-conatiner, .footer-index .flex-conatiner {
+.footer .flex-conatiner,
+.footer-index .flex-conatiner {
   flex-wrap: wrap;
   padding-left: 0;
   justify-content: space-evenly;
   margin: 30px 20px 40px 20px;
 }
 
-.footer .copyright-flex-container, .footer-index .copyright-flex-container{
+.footer .copyright-flex-container,
+.footer-index .copyright-flex-container {
   justify-content: space-around;
   align-items: center;
   margin-top: 30px;
@@ -414,7 +406,7 @@ ul {
 .header-abt-bg {
   background-image: url(./images/about_bg_a.png);
   background-size: 100% 100%;
-  background-size: contain;  
+  background-size: contain;
 }
 
 .about-mobile .paragragh-abt {
@@ -456,21 +448,17 @@ ul {
 @media only screen and (min-width: 768px) {
   .hamburger,
   .mobile-btn,
-  .footer .partners-container, .more
-  {
+  .footer .partners-container,
+  .more {
     display: none;
   }
 
-  .desktop-menu .icon-container {
-    padding-top: 0;
-    margin-top: 0;
-  }
-
-   .icon-container a:hover {
+  .icon-container a:hover {
     color: #ec5242;
   }
 
   .desktop-menu .icon-container {
+    margin-top: 0;
     justify-content: flex-end;
     padding: 5px 155px 5px 0;
     font-size: 12px;
@@ -478,7 +466,7 @@ ul {
   }
 
   .desktop-menu .icon-item {
-    margin-right: 64px; 
+    margin-right: 64px;
   }
 
   .icon-container-2 {
@@ -511,31 +499,32 @@ ul {
     margin-bottom: 48px;
   }
 
-  .mobile-header  .paragraph,  .mobile-header .time  {
+  .mobile-header .paragraph,
+  .mobile-header .time {
     opacity: 85%;
     background-color: #d3d3d3;
-    color: #272a31; 
-    margin-bottom: 64px;    
+    color: #272a31;
+    margin-bottom: 64px;
     padding-top: 24px;
     padding-bottom: 24px;
-   
   }
 
-  .mobile-header  .paragraph {
+  .mobile-header .paragraph {
     max-width: 50%;
   }
 
   .mobile-header .time {
-    max-width: 40%;    
+    max-width: 40%;
   }
- 
 
-  .main-courses-grid-container { 
-    grid-template-columns: auto auto auto auto auto;  
+  .main-courses-grid-container {
+    grid-template-columns: auto auto auto auto auto;
+
     /* text-align: center; */
   }
 
-  .main-courses-grid-container, .featured-speakers { 
+  .main-courses-grid-container,
+  .featured-speakers {
     margin-left: 150px;
     margin-right: 150px;
   }
@@ -558,16 +547,17 @@ ul {
   }
 
   .featured-speakers {
-    grid-template-columns: auto auto;  
+    grid-template-columns: auto auto;
   }
 
-  .featured-speakers > .featured-grid-item { 
-    margin-right: 24px;    
+  .featured-speakers > .featured-grid-item {
+    margin-right: 24px;
   }
 
   .chess {
-    backdrop-filter: blur(1px) contrast(0.8); 
+    backdrop-filter: blur(1px) contrast(0.8);
   }
+
   .destop-bg-pad .regiter-link {
     color: white;
   }
@@ -579,7 +569,7 @@ ul {
 
   .videos-abt-margin {
     margin-right: 24px;
-  }  
+  }
 
   .footer .copyright-flex-container {
     padding-top: 40px;
