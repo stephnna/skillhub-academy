@@ -332,6 +332,12 @@ ul {
 
 .down-arrow {
  margin-top: 5px;
+ width: 10px;
+ height: 10px;
+ /* background-color: #ec5242; */
+ filter: grayscale(100%); 
+ background-color: #b12314;
+ color: #b12314;
 }
 
 .more {
@@ -347,10 +353,15 @@ ul {
   margin-bottom: 52px;
   font-size: 20px;
   font-weight: bold;
+  background-image: url(./images/down-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 202px 16px;
+  
 }
 
-.more-arrow:hover {
-  background-color: #ec5242;;
+.more:hover {
+  background-color: #ec5242;
+  color: white;
 
 }
 
@@ -554,6 +565,9 @@ ul {
     margin-right: 24px;    
   }
 
+  .chess {
+    backdrop-filter: blur(1px) contrast(0.8); 
+  }
   .destop-bg-pad .regiter-link {
     color: white;
   }
