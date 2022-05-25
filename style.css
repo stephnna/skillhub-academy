@@ -383,9 +383,9 @@ ul {
 }
 
 .footer .flex-conatiner,
-.footer-index .flex-conatiner {  
+.footer-index .flex-conatiner {
   flex-wrap: wrap;
-  padding-left: 0;  
+  padding-left: 0;
   justify-content: space-evenly;
   align-items: center;
   margin: 30px 20px 40px 20px;
@@ -532,10 +532,10 @@ ul {
 
   .main-courses-grid-container > .main-grid-item {
     text-align: center;
-    flex-direction: column;    
+    flex-direction: column;
     margin-right: 3px;
     padding-left: 0;
-    padding-top: 24px; 
+    padding-top: 24px;
   }
 
   .main .destop-bg-pad .main-courses-grid-container > * p {
