@@ -64,17 +64,23 @@ sectionFeaturedElement.className = 'featured-speakers';
 
 for (let i = 0; i < projects.length; i += 1) {
   const gridProject = document.createElement('div');
-  gridProject.className = 'flex-container featured-grid-item display-flex';  
+  gridProject.className = 'flex-container featured-grid-item';
+  gridProject.style.backgroundImage  
   sectionFeaturedElement.appendChild(gridProject);
 }
 
+
+
 Array.from(sectionFeaturedElement.children).forEach((child, index) => {
-  child.innerHTML = `  
-  <div class="chinedu-image" style="background-image: url(${projects[index].image});"></div>
-  <div><h4>${projects[index].name}</h4>
+  child.innerHTML = `
+  <div class="chess" style="background-image: url(${projects[index].chess});">
+  <div class="chinedu-image" style="background-image: url(${projects[index].image});"></div></div> 
+  <div class="tutors-info"><h4>${projects[index].name}</h4>
   <i class="qualification">${projects[index].qualification}</i>
   <hr class="qualification-dash">
   <p>${projects[index].description}</p>
-</div>    
+</div>   
 `;
 });
+
+{/* <div class="chess" style="background-image: url(${projects[index].chess});"></div> */}

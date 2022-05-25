@@ -212,6 +212,7 @@ ul {
   width:  52px;
   height: 2px;
   border: none;
+  margin-bottom: 45px;
 }
 
 .main-courses-grid-container, .featured-speakers {
@@ -286,12 +287,33 @@ ul {
 }
 
 
-.chinedu-image { 
+.chess {
+  height: 76px;
+  width: 61px;
   background-size: 100% 100%;
   border-radius: 50%;
-  width: 150px;
-  margin-right: 16px;
-  height: 150px;
+  /* background-repeat: no-repeat; */
+  /* margin-right: 183px; */
+ 
+}
+.chinedu-image { 
+
+      /* border: 1px solid red; */
+     background-size: 100% 100%;
+     border-radius: 50%;
+     width: 224px;
+     /* margin-right: 16px; */
+     height: 195px;
+     /* background-position-x: 6px; */
+     background-repeat: no-repeat;
+     /* background-position: 17px 20px; */
+      /* z-index: 99; */
+}
+
+.tutors-info {
+  margin-left: 253px;
+    margin-top: -90px;
+
 }
 
 .qualification {
@@ -449,30 +471,28 @@ ul {
     margin-bottom: 48px;
   }
 
-  .mobile-header  .paragraph {
-    opacity: 90;
+  .mobile-header  .paragraph,  .mobile-header .time  {
+    opacity: 85%;
     background-color: #d3d3d3;
     color: #272a31; 
-    margin-bottom: 64px;
-    max-width: 50%;
+    margin-bottom: 64px;    
     padding-top: 24px;
     padding-bottom: 24px;
+   
+  }
+
+  .mobile-header  .paragraph {
+    max-width: 50%;
   }
 
   .mobile-header .time {
-    opacity: 90;
-    color: #272a31;
-    background-color: #d3d3d3;
-    max-width: 40%;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    /* margin-bottom: 0; */
+    max-width: 40%;    
   }
  
 
   .main-courses-grid-container { 
     grid-template-columns: auto auto auto auto auto;  
-    text-align: center;
+    /* text-align: center; */
   }
 
   .main-courses-grid-container, .featured-speakers { 
@@ -498,11 +518,11 @@ ul {
   }
 
   .featured-speakers {
-    grid-template-columns: auto auto; 
+    grid-template-columns: auto auto;  
   }
 
   .featured-speakers > .featured-grid-item { 
-    margin-right: 24px;   
+    /* margin-right: 24px;  */   
   }
 
   .destop-bg-pad .regiter-link {
