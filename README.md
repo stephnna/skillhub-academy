@@ -1,25 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Project Name
-Coding Academy:
+## Project Name: SkillHub Academy
+
 The aim of this project is to design a protoyype of online platform for learning coding
 
 
 ## Built With
-- Linters, wenhint and Stylint
-- HTML & CSS
-- Javascript 
+- Major languages : HTMl & CSS, JavaScript
+- Frameworks : none
+- Technologies used : Github, Git and Linters
 
 ## Live Demo 
-[Live Demo Link](https://stephnna.github.io/coding-academy/)
+[Live Demo Link](https://stephnna.github.io/skillhub-academy/)
 
 ## Getting Started
 
-The goal of this project is to:
-- Understand how to parse a Figma design to create a UI.
-- Flexbox to place elements in the page.
-- Build a personal portfolio site.
-- Use images and backgrounds to enhance the look of the website.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites ♻️
+- A personal computer connected to the internet;
+- Have a working and updated browser.
+- Have a local version control like git installed on your computer
+- Have an account on Github, as an online/remote Version Control System
+- Code editor (Visual studio code, sublime text, notepad++, ...) installed on your computer;
+- At least basic of HTML and CSS.
+
+### Setup 🎰
+-  Click the [me](https://github.com/Chrissiku/capstone_project_one/) and you'll land on the pure repository;
+-  click on the green (🟢) button with `Code` Inscription;
+-  You can choose to download the project or just clone it if you are familiar with Git and Github;
+-  Follow normal step once download in your computer and use it as it's yours.
+
+### Install 
+- If you are familiar with git, Run `npm install` to get all dependecies required to run the linters checks, otherwise use the downloaded project on your computer without testing files
+
+### Run test 🧪
+> Run thes command bellow inside your `git bash` or command line interface.
+- `npx hint .` : for the `html` codebase and use of best practices.
+- `npx stylelint "**/*.{css,scss}"` :  for the `css` codebase and use of best practices. you can add 
+- `npx eslint .` :  for the `JavaScript` codebase and use of best practices.
+-  > Note that you can add `--fix` keyword to the command for `Css` and/or `JavaScript` to make sure that you avoid all errors comming from your `code editor`
+
 
 👤 Ezea Stephen Nnabuike
 
@@ -38,11 +59,11 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- Originally designed by [Cindy Shin](https://www.behance.net/adagio07)
+- Hat tip to anyone whose code was used.
 
 ## 📝 License
 
-This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+This project is [MIT](./MIT.md) licensed.
+
