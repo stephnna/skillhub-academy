@@ -530,7 +530,8 @@ ul {
     margin-right: 150px;
   }
 
-  .main-courses-grid-container > .main-grid-item {   
+  .main-courses-grid-container > .main-grid-item {
+    text-align: center;
     flex-direction: column;    
     margin-right: 3px;
     padding-left: 0;
