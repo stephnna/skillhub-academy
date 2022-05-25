@@ -214,17 +214,20 @@ ul {
   border: none;
   margin-bottom: 45px;
 }
+.featured-speakers {
+  margin-bottom: 52px;
+}
 
 .main-courses-grid-container, .featured-speakers {
   display: grid;
   grid-template-columns: auto;
-  margin-right: 16px;
-  margin-left: 16px; 
+  margin-right: 16px; 
+  margin-left: 16px;
 }
 
 .featured-speakers > .featured-grid-item { 
-  margin-bottom: 24px;
-  margin-right: 16px;
+  margin-bottom: 24px; 
+  padding: 0;
 }
 
 .main-courses-grid-container > .main-grid-item {
@@ -327,14 +330,28 @@ ul {
  margin-left: 0;
 }
 
-.more-arrow {
-  border: 1px solid  #d3d3d3;
-  text-align: center;
+.down-arrow {
+ margin-top: 5px;
+}
+
+.more {
+  /* border: 1px solid  #d3d3d3; */
+  /* text-align: center; */
+  padding-right: 150px;
+  padding-left: 150px;
   border-radius: 6px;
   padding-top: 16px;
   padding-bottom: 16px;
-  margin-right: 16px;
-  margin-left: 16px;
+  /* margin-right: 16px; */
+  /* margin-left: 16px; */
+  margin-bottom: 52px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.more-arrow:hover {
+  background-color: #ec5242;;
+
 }
 
 /* Footer session */
@@ -344,6 +361,17 @@ ul {
   padding-top: 25px;
   padding-bottom: 30px;
 }
+.partners-container .partner {
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 0;
+}
+
+.partner-1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
 
 /* .footer-index .flex-conatiner {
   background-size: 100% 100%;
@@ -417,7 +445,7 @@ ul {
 @media only screen and (min-width: 768px) {
   .hamburger,
   .mobile-btn,
-  .footer .partners-container
+  .footer .partners-container, .more
   {
     display: none;
   }
@@ -523,7 +551,7 @@ ul {
   }
 
   .featured-speakers > .featured-grid-item { 
-    /* margin-right: 24px;  */   
+    margin-right: 24px;    
   }
 
   .destop-bg-pad .regiter-link {
