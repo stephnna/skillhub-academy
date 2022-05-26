@@ -101,7 +101,7 @@ ul {
 
 .is-active .hamburger-menu {
   left: 0;
-  opacity: 84%;
+  opacity: 78%;
 }
 
 .hamburger .hamburger-menu .menu-item {
@@ -363,9 +363,9 @@ ul {
   padding-bottom: 0;
 }
 
-.partner-1 {
-  font-weight: bold;
-  font-size: 30px;
+.footer-img {
+  width: 150px;
+  height: 50px;
 }
 
 .footer .flex-conatiner,
@@ -473,9 +473,7 @@ ul {
   }
 
   .mobile-background {
-    background-image: url(./images/desktop-background.png);
     padding: 100px 0 100px 150px;
-    background-color: #d3d3d3;
   }
 
   .about-mobile .paragragh-abt {
@@ -490,7 +488,6 @@ ul {
   .mobile-header .paragraph,
   .mobile-header .time {
     opacity: 85%;
-    background-color: #d3d3d3;
     color: #272a31;
     margin-bottom: 64px;
     padding-top: 24px;
