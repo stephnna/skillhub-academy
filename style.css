@@ -124,7 +124,6 @@ ul {
 .mobile-background {
   background-image: url(./images/mobile_intro_bg.png);
   background-size: 100% 100%;
- 
 }
 
 .mobile-header {
@@ -295,7 +294,7 @@ ul {
   width: 195px;
   height: 195px;
   background-repeat: no-repeat;
-  background-position: 17px 20px; 
+  background-position: 17px 20px;
 }
 
 .tutors-info {
@@ -543,7 +542,8 @@ ul {
     margin-right: 24px;
     margin-bottom: 0;
   }
-/* 
+
+  /*
   .chess {
     backdrop-filter: blur(1px) contrast(0.8);
   } */
