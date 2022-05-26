@@ -124,6 +124,7 @@ ul {
 .mobile-background {
   background-image: url(./images/mobile_intro_bg.png);
   background-size: 100% 100%;
+ 
 }
 
 .mobile-header {
@@ -287,28 +288,14 @@ ul {
   height: 76px;
   width: 61px;
   background-size: 100% 100%;
-  border-radius: 50%;
-
-  /* background-repeat: no-repeat; */
-
-  /* margin-right: 183px; */
 }
 
 .chinedu-image {
-  /* border: 1px solid red; */
   background-size: 100% 100%;
-  border-radius: 50%;
   width: 195px;
-
-  /* margin-right: 16px; */
   height: 195px;
-
-  /* background-position-x: 6px; */
   background-repeat: no-repeat;
-
-  /* background-position: 17px 20px; */
-
-  /* z-index: 99; */
+  background-position: 17px 20px; 
 }
 
 .tutors-info {
@@ -489,6 +476,7 @@ ul {
   .mobile-background {
     background-image: url(./images/desktop-background.png);
     padding: 100px 0 100px 150px;
+    background-color: #d3d3d3;
   }
 
   .about-mobile .paragragh-abt {
@@ -555,10 +543,10 @@ ul {
     margin-right: 24px;
     margin-bottom: 0;
   }
-
+/* 
   .chess {
     backdrop-filter: blur(1px) contrast(0.8);
-  }
+  } */
 
   .destop-bg-pad .regiter-link {
     color: white;
