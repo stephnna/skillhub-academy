@@ -1,7 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Project Name: SkillHub Academy
-The aim of this project is to design a protoyype of online platform for learning coding
+
+The aim of this project is to design a protoype of online platform for learning coding
 
 
 ## Built With
@@ -10,7 +11,12 @@ The aim of this project is to design a protoyype of online platform for learning
 - Technologies used : Github, Git and Linters
 
 ## Live Demo 
-[Live Demo Link]( https://stephnna.github.io/skillhub-academy/)
+
+[Live Demo Link](https://stephnna.github.io/skillhub-academy/)
+
+## Project Description
+
+[Loom Video](https://www.loom.com/share/3c1f1f9cde134abf9b3d159fc8b88c6c)
 
 ## Getting Started
 
@@ -23,6 +29,22 @@ To get a local copy up and running follow these simple example steps.
 - Have an account on Github, as an online/remote Version Control System
 - Code editor (Visual studio code, sublime text, notepad++, ...) installed on your computer;
 - At least basic of HTML and CSS.
+
+### Setup 🎰
+-  Click the [me](https://github.com/stephnna/skillhub-academy) to get the repository;
+-  click on the green (🟢) button with `Code` Inscription;
+-  You can choose to download the project or just clone it if you are familiar with Git and Github;
+-  Follow normal step once download in your computer and use it as it's yours.
+
+### Install 
+- If you are familiar with git, Run `npm install` to get all dependecies required to run the linters checks, otherwise use the downloaded project on your computer without testing files
+
+### Run test 🧪
+> Run thes command bellow inside your `git bash` or command line interface.
+- `npx hint .` : for the `html` codebase and use of best practices.
+- `npx stylelint "**/*.{css,scss}"` :  for the `css` codebase and use of best practices. you can add 
+- `npx eslint .` :  for the `JavaScript` codebase and use of best practices.
+-  > Note that you can add `--fix` keyword to the command for `Css` and/or `JavaScript` to make sure that you avoid all errors comming from your `code editor`
 
 👤 Ezea Stephen Nnabuike
 

@@ -10,37 +10,41 @@
 </head>
 <body>
   <header>
-    <nav class="desktop-menu">
-      <div>
-        <ul>
-          <li><a href="">F</a></li>
-          <li><a href="">Twi</a></li>
-          <li><a href="">English</a></li>
-          <li><a href="">My Page</a></li>
-          <li><a href="">Logout</a></li>         
-        </ul>        
-      </div>
-      <div>
-        <div>SkillHub Academy<br>Ongoing Program</div>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Courses</a></li>
-          <li><a href="">Register</a></li>
-          <li><a href="">Sponsors</a></li>
-          <li><a href="">News</a></li>
-          <li><a href="">C Academy</a></li>         
-        </ul>
-      </div>
-    </nav>
-    <div class="about-mobile gray-background">     
-      <div class="header-abt-bg">
-    <img src="./images/hamburger.png" alt="Hamburger">   
-     <h1 class="welcome-abt red-color align-center">
-      <span class="greeting">"Welcome to SkillHub Academy!"</span><br>
-      <span class="header-ongoing">Ongoing Live<br>Skill Tutorial</span></h1>
+    <nav class="desktop-menu">      
+      <ul class="icon-container dark-background display-flex">
+        <li class="icon-item"><a href=""><img src="./images/facebook.png" alt="facebook-logo"></a></li>
+        <li class="icon-item"><a href=""><img src="./images/twitter.png" alt="twitter-logo"></a></li>
+        <li class="icon-item"><a class=" white-color" href="">English</a></li>
+        <li class="icon-item"><a class=" white-color" href="">My Page</a></li>
+        <li class="icon-item"><a class=" white-color" href="">Logout</a></li>         
+      </ul>  
+    <div class="icon-container-2 display-flex">
+      <div class="display-flex">SkillHub Academy<br>Ongoing Program</div>
+      <ul class="display-flex">
+        <li><a class="icon-item red-color" href="index.html">Home</a></li>
+        <li><a class="icon-item dark-color" href="index.html#courses">Courses</a></li>
+        <li><a class="icon-item dark-color" href="#">Register</a></li>          
+        <li><a class="icon-item name-border red-color" href="">Academy</a></li>         
+      </ul>         
     </div>
-      <p class="paragragh-abt white align-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ad laborum quisquam repudiandae 
-      voluptatem dolorem exercitationem facere vo dolor aperiam quas fugit? A platform designed to teach you
+  </nav>
+  <div class="hamburger">    
+    <div class="bar-1"></div> 
+    <div class="bar-2"></div> 
+    <div class="bar-3"></div>
+                 
+     <ul class="hamburger-menu">
+      <li class="menu-item"><a class="menu-color" href="index.html">Home</a></li>
+      <li class="menu-item"><a class="menu-color" href="index.html#courses">Courses</a></li>
+      <li class="menu-item"><a class="menu-color" href="index.html#tutor">Tutors</a></li>       
+    </ul> 
+  </div>          
+    <div class="about-mobile gray-background">       
+      <div class="header-abt-bg">       
+      <h1 class="header-ongoing red-color align-center"><br>ONGOING LIVE<br>SKILL TUTORIAL</h1>
+    </div>   
+      <p class="paragragh-abt white-background align-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ad laborum quisquam repudiandae 
+      voluptatem dolorem exercitationem facer vo dolor aperiam quas fugit? A platform designed to teach you
          Coding from the zero to hero with live tutors from  over 80 
          countries with new cohorts enrolling monthly online</p>
     <p class="align-center">Please contact us for further enquiries<br>
@@ -60,8 +64,8 @@
     <h2>See Some Past SkillHub Tutorials</h2>
     <p>Take a look at our most two most recent SkillHub Academy Program that took place on our online clasroom</p><br><br>
     <div class="videos-abt">      
-     <div><span>SkillHub Academy  April online class</span><br>
-      <iframe class="hk" src="https://drive.google.com/file/d/1C-PNbkG8SmzgKsWvr8cQLEv4xpHVuYlZ/preview" allow="autoplay"></iframe>
+     <div class="videos-abt-margin"><span>SkillHub Academy  April online class</span><br>
+      <iframe src="https://drive.google.com/file/d/1C-PNbkG8SmzgKsWvr8cQLEv4xpHVuYlZ/preview" allow="autoplay"></iframe>
     </div><br><br>
      <div><span>SkillHub Academy March online class</span><br>
       <iframe src="https://drive.google.com/file/d/1C-PNbkG8SmzgKsWvr8cQLEv4xpHVuYlZ/preview" allow="autoplay"></iframe>
@@ -70,12 +74,12 @@
   </main><br><br>
   <footer class="footer">
     <div class="dark-background align-center partners-container">
-    <h5>Partners</h5>
+      <h5 class="partner white-color">Partners</h5><hr class="red-background tutor-dash">
     <ul class="flex-conatiner display-flex">
-      <li class="flex-item"><a href="">ABCDE</a></li>
+      <li class="flex-item"><a class="partner-1" href="#">ABCDE</a></li>
       <li class="flex-item"><a href="">FGHIJ</a></li>
-      <li class="flex-item"><a href="">KLMNO</a></li>
-      <li class="flex-item"><a href="">PQRST</a></li>
+      <li class="flex-item"><a class="partner-1" href="#">KLMNO</a></li>
+      <li class="flex-item"><a href="">PQRSTABCSEF</a></li>
       <li class="flex-item"><a href="">UVWXY</a></li>         
     </ul> 
   </div>
@@ -83,6 +87,7 @@
     <div> &copy;SkillHub<br>Academy</div>    
       <p>2022 Skill Academy<br>All Rights Reserved.</p>
     </div> 
-  </footer>  
+  </footer>
+  <script src="script.js"></script>    
 </body>
 </html>
