@@ -61,13 +61,6 @@ To get a local copy up and running follow these simple example steps.
 ### Install 
 - If you are familiar with git, Run `npm install` to get all dependecies required to run the linters checks, otherwise use the downloaded project on your computer without testing files
 
-### Run test 🧪
-> Run thes command bellow inside your `git bash` or command line interface.
-- `npx hint .` : for the `html` codebase and use of best practices.
-- `npx stylelint "**/*.{css,scss}"` :  for the `css` codebase and use of best practices. you can add 
-- `npx eslint .` :  for the `JavaScript` codebase and use of best practices.
--  > Note that you can add `--fix` keyword to the command for `Css` and/or `JavaScript` to make sure that you avoid all errors comming from your `code editor`
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
