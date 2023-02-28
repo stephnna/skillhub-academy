@@ -14,10 +14,6 @@ The aim of this project is to design a protoype of online platform for learning 
 
 [Live Demo Link](https://stephnna.github.io/skillhub-academy/)
 
-## Project Description
-
-[Loom Video](https://www.loom.com/share/3c1f1f9cde134abf9b3d159fc8b88c6c)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
